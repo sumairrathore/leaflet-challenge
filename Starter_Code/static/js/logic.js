@@ -81,6 +81,6 @@ function createMap(Locations) {
   }
   
 
-  let earthquakeURL = "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_month.geojson";
+  let URL = "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_month.geojson";
   
-  d3.json(earthquakeURL).then(createMarkers);
+  d3.json(URL).then(createMarkers);
